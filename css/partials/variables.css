@@ -1,11 +1,11 @@
 :root {
-    /*------COLOUR VARIABLES-------*/
-    --dark-font-color: #000;
-    --light-font-color: #fff;
-    --background-texture: left 10% / 500px 280px repeat url('../assets/background-small.png');
-    --accent-color: #f86510;
-    /*------FONT VARIABLES-------*/
-    --heading-font: "Major Mono Display";
-    --paragraph-font: "Montserrat";
-  }
-  
+  /*------COLOUR VARIABLES-------*/
+  --dark-font-color: #000;
+  --light-font-color: #fff;
+  --background-texture: left 10% / 500px 280px repeat url('../../assets/background.png');
+  --accent-color: #f86510;
+  --highlight-color: #f5f8fc;
+  /*------FONT VARIABLES-------*/
+  --heading-font: 'Major Mono Display';
+  --paragraph-font: 'Montserrat';
+}

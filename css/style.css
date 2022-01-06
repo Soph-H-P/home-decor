@@ -3,7 +3,5 @@
 @import 'partials/layout.css';
 @import 'partials/nav.css';
 @import 'partials/index-content.css';
-
-
-
-
+@import 'partials/card.css';
+@import 'partials/about.css';

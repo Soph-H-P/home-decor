@@ -17,7 +17,7 @@ body {
 
 main {
   max-width: 1000px;
-  margin: 130px auto 0 auto;
+  margin: 0px auto 0 auto;
 }
 
 .wrapper {
@@ -36,4 +36,10 @@ header,
 main,
 footer {
   padding: 20px;
+}
+
+@media (max-width: 550px) {
+  main {
+    margin: 130px auto 0 auto;
+  }
 }

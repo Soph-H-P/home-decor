@@ -1,0 +1,52 @@
+.logo-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-img-container img {
+  width: 60%;
+}
+
+.logo-container span {
+  font-size: 1.5rem;
+  font-family: var(--heading-font), sans-serif;
+  font-weight: 600;
+}
+
+#span__orange {
+  color: var(--accent-color);
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  background-color: var(--light-font-color);
+  position: sticky;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  padding: 10px;
+}
+
+li a:hover,
+li a.active {
+  color: var(--accent-color);
+}
+
+@media (max-width: 550px) {
+  nav ul {
+    flex-direction: column;
+  }
+}

@@ -1,20 +1,9 @@
-html,
-body {
-  height: 100%;
-}
+@import 'partials/variables.css';
+@import 'partials/typography.css';
+@import 'partials/layout.css';
+@import 'partials/nav.css';
+@import 'partials/index-content.css';
 
-body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1 0 auto;
-}
 
-footer {
-  flex-shrink: 0;
-}
+

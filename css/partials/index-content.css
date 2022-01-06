@@ -1,0 +1,12 @@
+.side-image {
+    max-width: 400px;
+    position: fixed;
+    left: 0;
+    top: 180px;
+    z-index: -1;
+  }
+  
+  .side-image img {
+    width: 100%;
+  }
+  

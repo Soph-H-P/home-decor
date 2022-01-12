@@ -28,8 +28,15 @@ main {
 
 footer {
   flex-shrink: 0;
-  text-align: center;
   background: var(--highlight-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span {
+  width: fit-content;
+  display: flex;
+  align-items: center;
 }
 
 header,

@@ -1,0 +1,40 @@
+.hero-section {
+  position: relative;
+  text-align: center;
+}
+
+.hero-section h1 {
+  background: white;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.heading-container {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  text-align: center;
+}
+
+.intro-photo-container {
+  background: url('../../assets/main-photo.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  top: 200px;
+
+  height: 250px;
+  filter: blur(2px);
+}
+
+.card-heading-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  .hero-section {
+    margin-top: 130px;
+  }
+}

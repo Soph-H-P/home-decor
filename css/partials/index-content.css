@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-h1 {
+.intro-container h1 {
   padding-left: 330px;
 }
 
@@ -23,9 +23,10 @@ h1 {
   flex-direction: column;
 }
 
-button {
+.cta {
   color: var(--light-font-color);
   background-color: var(--accent-color);
+  font-family: var(--paragraph-font);
   font-size: 1rem;
   border: none;
   padding: 10px 20px;

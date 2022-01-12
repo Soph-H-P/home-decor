@@ -43,6 +43,19 @@ ul {
 
 li a {
   padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-left: 10px;
+  height: 26px;
+  width: 26px;
+}
+
+.icon.x2 {
+  height: 46px;
+  width: 46px;
 }
 
 li a:hover,

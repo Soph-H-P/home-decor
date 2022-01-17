@@ -27,6 +27,8 @@
   color: var(--light-font-color);
   background-color: var(--accent-color);
   font-family: var(--paragraph-font);
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 1rem;
   border: none;
   padding: 10px 20px;
@@ -34,7 +36,7 @@
   cursor: pointer;
 }
 
-button:hover {
+.cta:hover {
   background-color: var(--highlight-color);
   color: var(--dark-font-color);
 }

@@ -16,7 +16,8 @@
   transition: all 0.3s;
 }
 
-.card-img-container {
+.card-img-container,
+.card p {
   max-width: 300px;
 }
 

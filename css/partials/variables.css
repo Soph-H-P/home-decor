@@ -4,7 +4,9 @@
   --light-font-color: #fff;
   --background-texture: left 10% / 500px 280px repeat url('../../assets/background.png');
   --accent-color: #f86510;
+  --text-accent-color: #b64606;
   --highlight-color: #f5f8fc;
+  --link-color: #566D8C;
   /*------FONT VARIABLES-------*/
   --heading-font: 'Major Mono Display';
   --paragraph-font: 'Montserrat';

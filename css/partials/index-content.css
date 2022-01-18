@@ -25,7 +25,7 @@
 
 .cta {
   color: var(--light-font-color);
-  background-color: var(--accent-color);
+  background-color: var(--text-accent-color);
   font-family: var(--paragraph-font);
   text-transform: uppercase;
   font-weight: 600;

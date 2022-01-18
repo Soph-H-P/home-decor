@@ -60,7 +60,9 @@ li a {
 
 li a:hover,
 li a.active {
-  color: var(--accent-color);
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media (max-width: 550px) {
